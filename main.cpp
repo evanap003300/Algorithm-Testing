@@ -8,8 +8,8 @@ using namespace std;
 
 int main()
 {
-    double l = 0.1;
-    double sigma_squared = 1.0;
+    double l = 0.3;
+    double sigma_squared = 9.0;
     double sigma_n_squared = 0.1;
     vector<GP::Point> sample_data = {
         {0.1, sin(2 * M_PI * 0.1)},
