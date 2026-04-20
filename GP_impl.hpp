@@ -19,6 +19,8 @@ public:
         double variance;
     };
 
+    GP() : l(0), sigma_squared(0), sigma_n_squared(0) {}
+
     GP(double l, double sigma_squared, double sigma_n_squared, vector<Point> sample_data)
         : l(l), sigma_squared(sigma_squared), sigma_n_squared(sigma_n_squared), sample_data(sample_data) {}
 
